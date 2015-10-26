@@ -3,6 +3,9 @@
   "name": "what-is-ecmascript",
   "title": "ECMAScriptとは何か？",
   "description": "ECMAScriptの仕様と策定について",
+  "structure": {
+    "readme": "INTRO.md"
+  },
   "styles": {
     "website": "css/index.css"
   },

@@ -1,9 +1,3 @@
-# ECMAScriptとは何か？
-
-ECMAScriptの嘘は嘘と見抜けるように
-
-----
-
 # 自己紹介
 
 ![アイコン right](https://github.com/azu.png)
@@ -49,21 +43,18 @@ ECMAScriptの嘘は嘘と見抜けるように
 
 # ECMAScript 6 / 2015の呼び方
 
-一応の正式名称はECMAScript 2015。通称(多くの人に馴染みがあるという意味)ではES6と呼ぶ人も多い。
+- 一応の正式名称はECMAScript 2015。通称はES6
+- ES6から1年毎にリリースしていく予定のため、2015, 2016…となるように変更された
 
 > ES2015が正式名称であり、来年以降のECMAScriptの策定やリリースのスタイルに名称を合わせるというのが理由
 
-- [ES6 or ES2015 ? 〜WEB+DB PRESS Vol.87 ES6特集に寄せて〜 - Cybozu Inside Out | サイボウズエンジニアのブログ](http://blog.cybozu.io/entry/9081 "ES6 or ES2015 ? 〜WEB+DB PRESS Vol.87 ES6特集に寄せて〜 - Cybozu Inside Out | サイボウズエンジニアのブログ")
+- [ES6 or ES2015 ?](http://blog.cybozu.io/entry/9081 "ES6 or ES2015 ? 〜WEB+DB PRESS Vol.87 ES6特集に寄せて〜 - Cybozu Inside Out | サイボウズエンジニアのブログ")
 
-ES6以降は1年毎にリリースしていく予定のため、2015, 2016…となるように変更された。
+-----
 
+## ES6のエディタ
 
-
-------
-
-## ES6のエディタリーダー
-
-[![icon, right](https://monosnap.com/file/YZf9xQvF692CCyPm6UZilXBrzJKUIS.png)](https://twitter.com/awbjs "Allen Wirfs-Brock (@awbjs) | Twitter")
+[![icon, right](../img/2015-09-26_00-15-23.png)](https://twitter.com/awbjs "Allen Wirfs-Brock (@awbjs) | Twitter")
 
 - Allen Wirfs-Brock(アレン・ワーフスブラック) @ <del>Mozilla</del> [family business](https://twitter.com/awbjs/status/649995551467945984)
 - [@awbjs](https://twitter.com/awbjs "@awbjs")
@@ -72,29 +63,27 @@ ES6以降は1年毎にリリースしていく予定のため、2015, 2016…と
 
 # Ecma標準とISO標準の違い
 
-ECMAScriptはデファクト標準([Ecma International](http://www.ecma-international.org/default.htm "Ecma International")により標準化)でもあり、[ISO/IEC 16262](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=55755 "ISO/IEC 16262")としてISO標準化(デジュール標準)もされている。
-
-- [OSSコミュニティの“中の人”（4）：できないことは全部やる。できる依頼は断る――竹迫良範氏インタビュー【後編】 (1/2) - ＠IT](http://www.atmarkit.co.jp/ait/articles/1210/23/news153.html "OSSコミュニティの“中の人”（4）：できないことは全部やる。できる依頼は断る――竹迫良範氏インタビュー【後編】 (1/2) - ＠IT")
-- [Devsumi2010 Ecmascript5 (ISO/IEC JTC1/SC22)](http://www.slideshare.net/takesako/devsumi2010-ecmascript5-isoiec-jtc1sc22 "Devsumi2010 Ecmascript5 (ISO/IEC JTC1/SC22)")
-
-日本ではISO/IEC JTC1/SC22のECMAScript adhoc委員会でFast Trackの手続きをやってたり([@azu](https://github.com/azu)もレビュアとして参加)。
-
+- ECMAScriptは
+    - デファクト標準([Ecma International](http://www.ecma-international.org/default.htm "Ecma International")により標準化)
+    - デジュール標準(ISO標準化 [ISO/IEC 16262](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=55755 "ISO/IEC 16262"))
+- 2つの標準化されたものを持ってるけどデファクトの方しか基本見てない
+- 日本ではISO/IEC JTC1/SC22のECMAScript Adhoc委員会[@azu](https://github.com/azu)もレビュアとして参加
 
 
 ------
 
-# ECMAScript 7 ? 2016
+# ECMAScript 7 / 2016
 
-- 大抵の場合は次(ES6の次)のECMAScriptの事を言ってる。
+- 大抵の場合は次(ES6の次)のECMAScriptの事
 - 「ES7のDecoratorについて」といった言い方はまだ仕様に入ることすら決まってないので話半分
 - 「次期ECMAScriptに提案されているDecoratorについて」というのがより正確
-- 次期ECMAScriptの事をECMAScript nextとかES.nextと言ったりもする。
+- 次期ECMAScriptの事をECMAScript nextとかES.nextと言ったりもする
 
 ------
 
-# ES.nextのエディタリーダー
+# ES.nextのエディタ
 
-[![Brian Terlson, right](https://monosnap.com/file/GxYyVcRB3ZDE4VcJ2nYBoLzfbrrzaz.png)](https://twitter.com/bterlson)
+[![Brian Terlson, right](../img/brian.png)](https://twitter.com/bterlson)
 
 - Brian Terlson(ブライアン・テルソン) @ Microsoft
 - [@bterlson](https://twitter.com/bterlson "@bterlson")
@@ -124,7 +113,8 @@ ECMAScriptはデファクト標準([Ecma International](http://www.ecma-internat
 
 # TC39 Process: Stage
 
-それぞれのStageについて。詳しくは[The TC39 Process](https://tc39.github.io/process-document/ "The TC39 Process")を読む。
+詳しくは[The TC39 Process](https://tc39.github.io/process-document/ "The TC39 Process")を読む。
+Stageは条件を満たすと一つずつアップする
 
 - Stage 0: Strawman
     - アイデア
@@ -144,11 +134,18 @@ ECMAScriptはデファクト標準([Ecma International](http://www.ecma-internat
     - ECMAScriptへ取り込まれる準備が完了したことを示す状態
     - ECMAScriptのエディタがチェックする必要があり
 
-それぞれのStageはTC39のミーティング等で話し合い、それぞれのStageの条件を満たしている場合に次のStageへあがる。
-
-
 
 ------
+
+## 例) do式
+
+![right do](https://monosnap.com/file/Pc9z1jSvOCOZi3q0GUE8E55kfPuRWF.png)
+
+- [do式が実装された - JS.next](http://js-next.hatenablog.com/entry/2015/10/23/193955 "do式が実装された - JS.next")
+- 今の時点でStage 0なのでES7で入ることはありえない
+
+
+----
 
 ## 何で1年ごとにリリースするの?
 
@@ -189,12 +186,10 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 
 ------
 
-# 仕様についてはどこで議論されてるの
+# 仕様についてはどこで議論?
 
 - メーリングリスト
     - [ES Discuss](https://esdiscuss.org/ "ES Discuss")
-- TC39のFace to Faceのミーティング
-    - [rwaldron/tc39-notes](https://github.com/rwaldron/tc39-notes "rwaldron/tc39-notes")
 - 各仕様のGitHub Issue
     - [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")
 - ECMAScriptのBugzilla
@@ -206,7 +201,7 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 
 ## 最近の面白い議論の流れ
 
-- ウェブ開発者がES6のこのdestructuringって複雑すぎじゃない？
+- ウェブ開発者が「ES6のこのdestructuringにユーザーを混乱させる罠がある」
     - [ECMAScript 6 destructuring gotcha - NCZOnline](https://www.nczonline.net/blog/2015/10/ecmascript-6-destructuring-gotcha/ "ECMAScript 6 destructuring gotcha - NCZOnline")
 - Allen(ES6エディタ)が仕様に対してIssueを立てる
     - [Destructuring declarations that bind nothing should probably be an early error · Issue #97 · tc39/ecma262](https://github.com/tc39/ecma262/issues/97 "Destructuring declarations that bind nothing should probably be an early error · Issue #97 · tc39/ecma262")
@@ -217,7 +212,7 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 # 結局ECMAScript 2016って何が入るの?
 
 - 基本的にはES6(ECMAScript 2015)のバグ修正
-- 加えて2016年1月中にStage 4となってる仕様が入る
+- 加えて、2016年1月中にStage 4となってるプロポーザルが入る
 
 可能性としてありえるのは以下の仕様あたり。
 
@@ -248,13 +243,13 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 </emu-production>
 ```
 
-[Ecmarkup](http://bterlson.github.io/ecmarkup/ "Ecmarkup")は仕様書向けのタグを定義したHTML。
+[Ecmarkup](http://bterlson.github.io/ecmarkup/ "Ecmarkup")は仕様書向けのCustom Elementを定義したHTML。
 
 -----
 
 ## Wordだった頃の様子
 
-![es6 draft](http://azu.github.io/slide/ecma262reading/img/es6-word.png)
+![es6 draft](../img/es6-word.png)
 
 ------
 
@@ -269,11 +264,9 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 
 # 次の仕様っていつリリースされるの?
 
-ECMAScript 2016のリリース予定は2016年の6月15-16日。
-
-Ecmaの[General Assembly](http://www.ecma-international.org/memento/GA.htm "General Assembly")(GA)で正式に承認された後にリリースされるので、次にGAが行われるのは15-16 Juneなので。
-
-
+- ECMAScript 2016のリリース予定は2016年の6月15-16日
+- Ecmaの[General Assembly](http://www.ecma-international.org/memento/GA.htm "General Assembly")(GA)で正式に承認された後にリリース
+- 次にGAが行われるのは2016年6月15-16日
 
 ------
 
@@ -299,20 +292,12 @@ Module loaderはES6から外されたけど、[whatwg/loader](https://github.com
 
 # ECMAScriptの実装ってどれぐらいあるの?
 
-ES.nextの仕様に入るには2つ以上の実装が必要。ここに関わるのはブラウザベンダーによる実装。
+ES.nextの仕様に入るには2つ以上の実装が必要
 
-- [Chakra](https://msdn.microsoft.com/en-us/library/dn249673(v=vs.94).aspx "Chakra") @ MicroSoft
+- [Chakra](https://msdn.microsoft.com/en-us/library/dn249673\(v=vs.94\).aspx) @ MicroSoft
 - [SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey "SpiderMonkey") @ Mozilla
 - [V8](https://code.google.com/p/v8/ "V8") @ Google
 - [JavaScriptCore](https://www.webkit.org/projects/javascript/ "JavaScriptCore") @ Apple
-
-組み込みやJVM向けなどもあるけど多分カウントされない気がする。
-
-- [Nashorn](http://openjdk.java.net/projects/nashorn/ "Nashorn")
-- [Duktape](http://duktape.org/index.html "Duktape")
-- [cesanta/v7](https://github.com/cesanta/v7/ "cesanta/v7")
-
-
 
 ------
 
@@ -330,44 +315,24 @@ ES.nextの仕様に入るには2つ以上の実装が必要。ここに関わる
 
 # Transpilerって何?
 
-Transpilerは[Source-to-source compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler "Source-to-source compiler")の事。コードからコードへ変換するツールの事で、JavaScriptやCSSなどの世界では色々なツールがある。
+- Code to Codeの変換を行うツール
+- ECMAScriptではES6以降のコードをES5のコードに変換する[Babel](https://babeljs.io/ "Babel")
+- CSSでは[PostCSS](https://github.com/postcss/postcss "PostCSS")とか
 
-ECMAScriptではES6以降のコードをES5のコードに変換する[Babel](https://babeljs.io/ "Babel")(元々は6to5という名前)や、CSSでは[PostCSS](https://github.com/postcss/postcss "PostCSS")などがある。
+-------
 
-古い環境にそもそも同等の表現をできる機能がない場合はTranspilerでも実装する事はできない。
-
-例) ES6 Proxy、ES6 Classesのサブクラスなど
-
-同様の事が原因で、全ての機能が仕様通りの動きをするわけではない。
-
-Babelの作者である@[sebmck](https://github.com/sebmck "sebmck")もTranspilerだけで新しい言語機能を学ぶべきではないと言っている。
+## Tranpiler is not Learning tools
 
 ![slide](http://azu.github.io/slide/nodejs-es6/img/JavaScript_transformation.png)
-
-- [JavaScript Transformation - JSConf 2015 // Speaker Deck](https://speakerdeck.com/sebmck/javascript-transformation-jsconf-2015)
-- [どうやってECMAScript 6を学び始めるか](http://azu.github.io/slide/nodejs-es6/how-to-learn.html)
-
-
 
 ------
 
 # Polyfillって何?
 
-一種のライブラリ。
-
-仕様で策定されている機能だが、古いブラウザなどではまだ実装されていない時に、APIが全く同じ互換実装を提供するライブラリの事。
-
-`Promise`や`Array.from`などのオブジェクトやメソッドの追加が主な働き。Transpilerと違って新しい構文を古いブラウザで動かせるようにするのではなく、既存の構文で新しい機能を追加する(つまりライブラリ)。
-
-ECMAScriptにはマクロのような仕組みはないのでコードで構文を拡張することが難しい。そのため、TranspilerとPolyfillを使い分け、組み合わせて利用する。
-
-[Babel](https://babeljs.io/ "Babel")はTranspiler、[core-js](https://github.com/zloirock/core-js "core-js")はPolyfill。
-
-ECMAScriptよりもDOM APIはPolyfillとして実装しやすいため多くのPolyfillが実装されている。
-
-- [Polyfill service](https://cdn.polyfill.io/v1/docs/ "Polyfill service")
-
-
+- 一種のライブラリ
+- 仕様で策定されている機能だが、古いブラウザなどではまだ実装されていない時に、APIが全く同じ互換実装を提供するライブラリ
+    - 構文じゃなくてオブジェクトを提供する
+    - PromiseとかはPolyfillできる
 
 ------
 
@@ -375,7 +340,6 @@ ECMAScriptよりもDOM APIはPolyfillとして実装しやすいため多くのP
 
 - YES and NO
 - 仕様策定的には使ってもらえるとフィードバックが来やすいので歓迎
-- けど、ES6で言語としてのベースラインがかなり整った
 - 普通に使うだけならES6の機能 + ライブラリでも十分に使える
 - 新しい仕様を試したくない場合は別にBabelを使わなくなるというのはあり得る
 
@@ -383,18 +347,11 @@ ECMAScriptよりもDOM APIはPolyfillとして実装しやすいため多くのP
 
 ## Contributing
 
-- ES.nextの仕様は殆どがGitHubのリポジトリを持ってるので、それぞれのリポジトリにIssueやPull Requestを送ってみる
-    - [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")
-- ECMAScriptの仕様本体も[tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")にある
-    - [CONTRIBUTING.md](https://github.com/tc39/ecma262/blob/master/CONTRIBUTING.md "CONTRIBUTING.md")を見て分かるように普通にIssueやPull Requestで修正できる
-    - 細かい変更ならCLAへのサインも必要ない
-- 最新の議論は[TC39 Meeting Notes](https://github.com/rwaldron/tc39-notes "TC39 Meeting Notes")に記録されているがtypoなどの間違いが多いので修正してみる
-- Transpilerなどのツールが新しい構文に対応するには、まずそのコードをパースできないといけない
-    - 各種パーサが対応できるようにPull Requestを送ってみる
-    - [[2015-02] 最近のJavaScript AST標準化の動き | Web Scratch](http://efcl.info/2015/02/26/recent-js-ast/ "[2015-02] 最近のJavaScript AST標準化の動き | Web Scratch")
-- 仕様のTranspilerやPolyfillを実装してみる
-- TranspilerやPolyfillを使ってみて使い勝手などのフィードバックを書いてみる
-
+- ES.nextは殆どの仕様がGitHubにおいてある
+    - これはW3CやWHATWGも同じ傾向
+- ECMAScriptの仕様自体がGitHubにある
+- 普通にIssueを立ててPull Requestしましょう！
+- [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")
 
 
 ------
