@@ -1,4 +1,4 @@
-# Node学園祭のスライド
+# ECMAScriptとは何か？
 
 ## Install
 

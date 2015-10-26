@@ -131,7 +131,7 @@ ECMAScript 7 or 2016って何のこと??
 - ECMAScript 2016からは機能ごとに仕様のプロポーザル(提案)を出し策定
 - それぞれのプロポーザルには**Stage**と呼ばれる5段階のラベルがある
 - 1年ごとに新しいECMAScript仕様がリリースされる
-- Stage 4となったプロポーザルは次期ECMAScriptに取り込まれ、正式にECMAScriptの仕様となる。
+- Stage 4となったプロポーザルは次期ECMAScriptに取り込まれ、正式にECMAScriptの仕様となる
 
 ------
 
@@ -197,8 +197,8 @@ ES6はリリースするまで結局6年かかった。
 
 # 新しいプロポーザルを提案するには
 
-[tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")の`stage0.md`にプロポーザルを追加してPull Requestする。Ecma Internationalの特許、著作権のポリシーに同意してる人ならば誰でも出来る。
-
+- [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")の`stage0.md`にプロポーザルを追加してPull Request
+- Ecma Internationalの特許、著作権のポリシーに同意してる人ならば誰でもできる
 - [Contributing New Proposals](https://github.com/tc39/ecma262#contributing-new-proposals "Contributing New Proposals")
 
 <blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">ECMAScriptに仕様提案までのフロー(Ecma非会員の場合)&#10;1. 仕様策定のプロセスを理解しましょう&#10;2. フォームから必要な情報送ってルールに同意してね &#10;3. ProposalをPull Requestしましょう&#10;<a href="https://t.co/vTcqEPzzBg">https://t.co/vTcqEPzzBg</a></p>&mdash; azu (@azu_re) <a href="https://twitter.com/azu_re/status/652419947059150848">October 9, 2015</a></blockquote>
@@ -286,11 +286,10 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 
 # ES.nextの進捗
 
-[tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")にそれぞれのプロポーザルのStageが掲載されている。またStageは2ヶ月に一度行われるTC39のミーティングにより変化するため、ミーティングの記録を読めばいい。
-
+- [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")に載ってる
+- Stageは2か月に一度行われるTC39のミーティングにより変化する
+- ミーティングの記録を読めばいい
 - [rwaldron/tc39-notes](https://github.com/rwaldron/tc39-notes "rwaldron/tc39-notes")
-
-
 
 ------
 
@@ -400,52 +399,11 @@ ECMAScriptよりもDOM APIはPolyfillとして実装しやすいため多くのP
 
 # ずっとBabelを使い続けるのか?
 
-[Babel](https://babeljs.io/ "Babel")ではES6で追加された構文の大部分が変換でき、古いブラウザなどでもES6を利用できるようになっている。
-
-そのため、とりあえずBabelを使っておけばという人も多い。
-
-- [Effective ES6 / Teppei Sato - YouTube](https://www.youtube.com/watch?v=oSPv5IPDSxE "Effective ES6 / Teppei Sato - YouTube")
-
-ブラウザ側の実装も進んでいるため、IEのようなアップデートのライフサイクルが異なるブラウザを無視すれば、モダンなブラウザでもES6の機能を利用できるようになってきている。
-
-Q. ブラウザでも実装された後もBabelを使い続けていくのか? それは健全なのか? という話について。
-
-A.
-
-- 健全かどうかについては、個人的な考えではYES。
-- 使い続けるかどうかは、その人による
-
-Babelを利用するのは利用者のブラウザで動かせるという実利的な理由もあるが、仕様策定側から見てもメリットがあると考えられている。
-
-TC39のメンバーでもある[@jhusain](https://twitter.com/jhusain "@jhusain")が、「これからもTranspilerをずっと使い続けていくのか?」という疑問に対して次のように答えている。
-
-> “I hope so. Transpilers have been an incredibly valuable thing for the committee.”
-
-- [168JSJ The Future of JavaScript with Jafar Husain](https://devchat.tv/js-jabber/168-jsj-the-future-of-javascript-with-jafar-husain "168JSJ The Future of JavaScript with Jafar Husain")
-- [JSJ The Future of JavaScript with Jafar Husainのメモ :memo:](https://gist.github.com/azu/ec6c5721393b8c3a6845 "JSJ The Future of JavaScript with Jafar Husainのメモ :memo:")
-
-現実的な問題として仕様に関わる人があまり数が多くない。しかし、仕様策定側は仕様に対するフィードバックを求めている。
-
-Transpilerがあると、策定中の仕様をウェブ開発者が試すことができ仕様に対するフィードバックがより多く集まる事が挙げられている。
-
-ウェブの変化が高速になっているのに伴い、ECMAScriptなどの仕様策定も高速になっていく傾向がある。
-
-- ES.nextは1年ごとのリリース。機能ベースの仕様策定
-- HTML5仕様のモジュール化
-    - [【エキスパートガチトーク】Web技術の未来を「Extensible Web」から探る！（後編）─技術の進化は必要か？ | HTML5Experts.jp](https://html5experts.jp/shumpei-shiraishi/16641/ "【エキスパートガチトーク】Web技術の未来を「Extensible Web」から探る！（後編）─技術の進化は必要か？ | HTML5Experts.jp")
-
-そのため、できるだけ短い期間で多くのフィードバックが必要になる傾向があり、フィードバックする機会を失う問題が起きやすいので、Transpilerはそこを補完する事ができるのではと期待されている。
-
-> フィードバック側は最新の情報に気づかないとフィードバックする機会を失う
-
-- [世界のJavaScriptを読もう @ 2014](http://azu.github.io/slide/jser200/javascript-2014.html "世界のJavaScriptを読もう @ 2014")
-
-ES.nextでも _Stage 1: Proposal_ あたりで、TranspilerやPolyfillを仕様と共に提供して、より多くの人が試せるようにしているケースが多い(TranspilerやPolyfillはStage 4となるのに必要な実装数にはカウントされない)。
-
-ES6で言語としてのベースラインがかなり整ったので、普通に使うだけならES6の機能だけでも十分に使える。
-なので、新しい仕様をわざわざ試したくない場合は別にBabelを使わなくなるというのはあり得る。
-
-
+- YES and NO
+- 仕様策定的には使ってもらえるとフィードバックが来やすいので歓迎
+- けど、ES6で言語としてのベースラインがかなり整った
+- 普通に使うだけならES6の機能 + ライブラリでも十分に使える
+- 新しい仕様を試したくない場合は別にBabelを使わなくなるというのはあり得る
 
 ------
 
@@ -458,7 +416,7 @@ ES6で言語としてのベースラインがかなり整ったので、普通�
     - 細かい変更ならCLAへのサインも必要ない
 - 最新の議論は[TC39 Meeting Notes](https://github.com/rwaldron/tc39-notes "TC39 Meeting Notes")に記録されているがtypoなどの間違いが多いので修正してみる
 - Transpilerなどのツールが新しい構文に対応するには、まずそのコードをパースできないといけない
-    - 各種パーサが対応出来るようにPull Requestを送ってみる
+    - 各種パーサが対応できるようにPull Requestを送ってみる
     - [[2015-02] 最近のJavaScript AST標準化の動き | Web Scratch](http://efcl.info/2015/02/26/recent-js-ast/ "[2015-02] 最近のJavaScript AST標準化の動き | Web Scratch")
 - 仕様のTranspilerやPolyfillを実装してみる
 - TranspilerやPolyfillを使ってみて使い勝手などのフィードバックを書いてみる
@@ -469,7 +427,7 @@ ES6で言語としてのベースラインがかなり整ったので、普通�
 
 # こんな機能ってES.nextに入るの?
 
-検索しましょう！ 続きはウェブで！
+検索しましょう。続きはウェブで！
 
 <form style="font-size: 4rem;" method="get" action="https://github.com/tc39/ecma262/search">
   <input style="font-size: 3.5rem;" name="q" type="text">
@@ -477,3 +435,10 @@ ES6で言語としてのベースラインがかなり整ったので、普通�
   <input style="font-size: 3.5rem;" value="search" type="submit">
 </form>
 
+-----
+
+
+# もっと知りたい
+
+- [ECMAScriptの仕様策定に関するカンニングペーパー | Web Scratch](http://efcl.info/2015/10/18/ecmascript-paper/ "ECMAScriptの仕様策定に関するカンニングペーパー | Web Scratch")
+- もうちょっと色々かいてある
