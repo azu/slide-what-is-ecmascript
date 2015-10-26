@@ -1,6 +1,6 @@
-# ECMAScriptのカンペ
+# ECMAScriptとは何か？
 
-ECMAScript関係についてざっとみるカンニングペーパー。
+ECMAScriptの嘘は嘘と見抜けるように
 
 ----
 
@@ -19,22 +19,17 @@ ECMAScript関係についてざっとみるカンニングペーパー。
 
 # ECMAScriptとは?
 
-[Ecma International](http://www.ecma-international.org/default.htm "Ecma International")によって標準化されてるJavaScriptの仕様の事。
-
+- [Ecma International](http://www.ecma-international.org/default.htm "Ecma International")によって標準化されてるJavaScriptの仕様の事
 - 仕様: ECMAScript
 - 実装: JavaScript
-
-2015年10月18日のStableな最新版はECMAScript 2015(aka. ES6)。
-
-- [ECMAScript® 2015 Language Specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm "ECMAScript® 2015 Language Specification")
-
+- Stableな最新版はECMAScript 2015(aka. ES6)
 
 ------
 
 # ECMA-262
 
-ECMAScriptの事。_262_はEcma Internationalでの管理番号。
-
+- ECMAScriptの事
+- _262_はEcma Internationalでの管理番号
 - [Ecma Standards - list](http://www.ecma-international.org/publications/standards/Standard.htm "Ecma Standards - list")
 
 
@@ -42,16 +37,11 @@ ECMAScriptの事。_262_はEcma Internationalでの管理番号。
 
 # TC39
 
-Technical Committee = 専門委員会。
-
-TC39: ECMAScriptを策定してる専門委員会のこと。
-
-Ecmaは色々な仕様を策定しているので、その中でECMAScriptを策定してるグループの名前がTC39。
-
+- Technical Committee = 専門委員会
+- TC39: ECMAScriptを策定してる専門委員会のこと
+- Ecmaは色々な仕様を策定しているので、その中でECMAScriptを策定してるグループの名前がTC39。
 - [TC39 - ECMAScript](http://www.ecma-international.org/memento/TC39.htm "TC39 - ECMAScript")
-
-ちなみに同じくEcma標準化されてるDartはTC52。
-
+- ちなみに同じくEcma標準化されてるDartはTC52
 - [TC52 - Dart](http://www.ecma-international.org/memento/TC52.htm "TC52 - Dart")
 
 
@@ -95,25 +85,10 @@ ECMAScriptはデファクト標準([Ecma International](http://www.ecma-internat
 
 # ECMAScript 7 ? 2016
 
-ECMAScript 7 or 2016って何のこと??
-
-大抵の場合は次(ES6の次)のECMAScriptの事を言ってる。
-
-「ES7のDecoratorについて」といった言い方はまだ仕様に入ることすら決まっていないもののことを言っているので正しくはない。
-
-「次期ECMAScriptに提案されているDecoratorについて」というのがより正確。
-
-次期ECMAScriptの事をECMAScript nextとかES.nextと言ったりもする。
-
-- [ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?](http://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/ "ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?")
-
-
-
-------
-
-# ES.next
-
-現在から見て次期ECMAScriptの事(2015年10月18日から見ると、次期ECMAScriptは2016以降の事)。
+- 大抵の場合は次(ES6の次)のECMAScriptの事を言ってる。
+- 「ES7のDecoratorについて」といった言い方はまだ仕様に入ることすら決まってないので話半分
+- 「次期ECMAScriptに提案されているDecoratorについて」というのがより正確
+- 次期ECMAScriptの事をECMAScript nextとかES.nextと言ったりもする。
 
 ------
 
@@ -197,14 +172,13 @@ ES6はリリースするまで結局6年かかった。
 
 # 新しいプロポーザルを提案するには
 
-- [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")の`stage0.md`にプロポーザルを追加してPull Request
-- Ecma Internationalの特許、著作権のポリシーに同意してる人ならば誰でもできる
-- [Contributing New Proposals](https://github.com/tc39/ecma262#contributing-new-proposals "Contributing New Proposals")
+一行で書くと[tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")の`stage0.md`にプロポーザルを追加してPull Request
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">ECMAScriptに仕様提案までのフロー(Ecma非会員の場合)&#10;1. 仕様策定のプロセスを理解しましょう&#10;2. フォームから必要な情報送ってルールに同意してね &#10;3. ProposalをPull Requestしましょう&#10;<a href="https://t.co/vTcqEPzzBg">https://t.co/vTcqEPzzBg</a></p>&mdash; azu (@azu_re) <a href="https://twitter.com/azu_re/status/652419947059150848">October 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+1. 仕様策定のプロセスを理解しましょう 
+2. フォームから必要な情報送ってルールに同意してね 
+3. ProposalをPull Requestしましょう
 
-------
+----
 
 # ECMAScriptとGitHub
 
