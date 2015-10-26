@@ -142,7 +142,7 @@ Stageは条件を満たすと一つずつアップする
 ![right do](https://monosnap.com/file/Pc9z1jSvOCOZi3q0GUE8E55kfPuRWF.png)
 
 - [do式が実装された - JS.next](http://js-next.hatenablog.com/entry/2015/10/23/193955 "do式が実装された - JS.next")
-- 今の時点でStage 0なのでES7で入ることはありえない
+- 今の時点でStage 0なのでES7で入ることはほぼない
 
 
 ----
