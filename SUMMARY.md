@@ -33,3 +33,4 @@
 - [ずっとBabelを使い続けるのか?](slide/33.md)
 	- [Contributing](slide/34.md)
 - [こんな機能ってES.nextに入るの?](slide/35.md)
+- [もっと知りたい](slide/36.md)
