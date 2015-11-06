@@ -1,7 +1,7 @@
 # [ECMAScriptとは何か？](https://github.com/azu/slide-what-is-ecmascript)
 
-GitHub : https://github.com/azu/slide-what-is-ecmascript
-WebPage: http://azu.github.io/slide-what-is-ecmascript/
+- WebPage: http://azu.github.io/slide-what-is-ecmascript/
+- GitHub : https://github.com/azu/slide-what-is-ecmascript
 
 ## Install
 

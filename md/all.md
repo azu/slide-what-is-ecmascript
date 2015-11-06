@@ -32,12 +32,9 @@
 # TC39
 
 - Technical Committee = 専門委員会
-- TC39: ECMAScriptを策定してる専門委員会のこと
-- Ecmaは色々な仕様を策定しているので、その中でECMAScriptを策定してるグループの名前がTC39。
-- [TC39 - ECMAScript](http://www.ecma-international.org/memento/TC39.htm "TC39 - ECMAScript")
-- ちなみに同じくEcma標準化されてるDartはTC52
-- [TC52 - Dart](http://www.ecma-international.org/memento/TC52.htm "TC52 - Dart")
-
+- [TC39](http://www.ecma-international.org/memento/TC39.htm): ECMAScriptを策定してる専門委員会のこと
+- Ecmaは色々な仕様を策定しているので、その中でECMAScriptを策定してるグループの名前がTC39
+- ちなみに同じくEcma標準化されてるDartは[TC52](http://www.ecma-international.org/memento/TC52.htm)
 
 ------
 
@@ -114,7 +111,7 @@
 # TC39 Process: Stage
 
 詳しくは[The TC39 Process](https://tc39.github.io/process-document/ "The TC39 Process")を読む。
-Stageは条件を満たすと一つずつアップする
+Stageは条件を満たすと1つずつアップする
 
 - Stage 0: Strawman
     - アイデア
@@ -134,7 +131,6 @@ Stageは条件を満たすと一つずつアップする
     - ECMAScriptへ取り込まれる準備が完了したことを示す状態
     - ECMAScriptのエディタがチェックする必要があり
 
-
 ------
 
 ## 例) do式
@@ -144,6 +140,14 @@ Stageは条件を満たすと一つずつアップする
 - [do式が実装された - JS.next](http://js-next.hatenablog.com/entry/2015/10/23/193955 "do式が実装された - JS.next")
 - 今の時点でStage 0なのでES7で入ることはほぼない
 
+-----
+
+## ブラウザに実装 ≠ 仕様に入る
+
+- ブラウザに実装されても仕様に入るとは限らない
+    - [`Object.observe`はプロポーザルから取り下げる予定](https://esdiscuss.org/topic/an-update-on-object-observe "An update on Object.observe")
+- プロポーザルを出してる人の半分はブラウザベンダーなので実験的に実装するケース
+    - 机上の空論では困るので、実装に問題ない、現実に即しているかなどを検証
 
 ----
 
