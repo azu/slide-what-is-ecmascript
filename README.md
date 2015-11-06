@@ -1,4 +1,5 @@
-# [ECMAScriptとは何か？](https://github.com/azu/slide-what-is-ecmascript)
+# [ECMAScriptとは何か？](https://github.com/azu/slide-what-is-ecmascript) [![Build Status](https://travis-ci.org/azu/slide-what-is-ecmascript.svg?branch=master)](https://travis-ci.org/azu/slide-what-is-ecmascript)
+
 
 - WebPage: http://azu.github.io/slide-what-is-ecmascript/
 - GitHub : https://github.com/azu/slide-what-is-ecmascript
