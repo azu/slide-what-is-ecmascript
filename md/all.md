@@ -166,14 +166,14 @@ ES6はリリースするまで結局6年かかった。
 - ウェブ開発者
 - あなた
 
-[tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")にプロポーザル一覧とStageが載っている。
+[tc39/proposals](https://github.com/tc39/proposals)にプロポーザル一覧とStageが載っている。
 
 
 ------
 
 # 新しいプロポーザルを提案するには
 
-一行で書くと[tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")の`stage0.md`にプロポーザルを追加してPull Request
+一行で書くと[tc39/proposals](https://github.com/tc39/proposals)の`stage0.md`にプロポーザルを追加してPull Request
 
 1. 仕様策定のプロセスを理解しましょう 
 2. フォームから必要な情報送ってルールに同意してね 
@@ -194,8 +194,10 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 
 - メーリングリスト
     - [ES Discuss](https://esdiscuss.org/ "ES Discuss")
-- 各仕様のGitHub Issue
+- ECMAScriptのGitHub Issue
     - [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")
+- 各種プロポーザルのGitHub Issue
+    - [tc39/proposals](https://github.com/tc39/proposals)
 - ECMAScriptのBugzilla
     - [bugs.ecmascript.org](https://bugs.ecmascript.org/)
 - SNS
@@ -259,7 +261,7 @@ ECMAScript 2016のドラフトはGitHubで公開されている。
 
 # ES.nextの進捗
 
-- [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")に載ってる
+- [tc39/proposals](https://github.com/tc39/proposals)にプロポーザルの進捗が載ってる
 - Stageは2か月に一度行われるTC39のミーティングにより変化する
 - ミーティングの記録を読めばいい
 - [rwaldron/tc39-notes](https://github.com/rwaldron/tc39-notes "rwaldron/tc39-notes")
@@ -355,7 +357,7 @@ ES.nextの仕様に入るには2つ以上の実装が必要
     - これはW3CやWHATWGも同じ傾向
 - ECMAScriptの仕様自体がGitHubにある
 - 普通にIssueを立ててPull Requestしましょう！
-- [tc39/ecma262](https://github.com/tc39/ecma262 "tc39/ecma262")
+- [tc39/proposals](https://github.com/tc39/proposals)
 
 
 ------
