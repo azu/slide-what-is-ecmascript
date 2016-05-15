@@ -28,7 +28,7 @@
     "gitbook-plugin-include-codeblock": "^1.4.0",
     "gitbook-plugin-japanese-support": "0.0.1",
     "gitbook-summary-to-path": "^1.0.1",
-    "markdown-splitter": "^1.0.1",
+    "markdown-splitter": "^1.0.5",
     "mdast": "^3.0.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.2.5",
