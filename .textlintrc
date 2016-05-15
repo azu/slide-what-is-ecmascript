@@ -1,7 +1,4 @@
 {
-  "plugins": [
-    "jtf-style"
-  ],
   "rules": {
     "spellcheck-tech-word": true,
     "no-mix-dearu-desumasu": false,
@@ -13,15 +10,17 @@
         "prh.yml"
       ]
     },
-    "jtf-style/1.1.1.本文": false,
-    "jtf-style/4.3.8.一重引用符": false,
-    "jtf-style/2.1.2.漢字": false,
-    "jtf-style/4.2.2.疑問符(？)": false,
-    "jtf-style/4.2.7.コロン(：)": false,
-    "jtf-style/2.1.6.カタカナの長音": false,
-    "jtf-style/2.1.5.カタカナ": false,
-    "jtf-style/3.1.1.全角文字と半角文字の間": false,
-    "jtf-style/4.2.6.ハイフン(-)": false,
-    "jtf-style/4.3.1.丸かっこ（）": false
+    "preset-jtf-style": {
+      "r1.1.1.本文": false,
+      "4.3.8.一重引用符": false,
+      "2.1.2.漢字": false,
+      "4.2.2.疑問符(？)": false,
+      "4.2.7.コロン(：)": false,
+      "2.1.6.カタカナの長音": false,
+      "2.1.5.カタカナ": false,
+      "3.1.1.全角文字と半角文字の間": false,
+      "4.2.6.ハイフン(-)": false,
+      "4.3.1.丸かっこ（）": false
+    }
   }
 }

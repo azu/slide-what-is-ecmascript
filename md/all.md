@@ -153,7 +153,7 @@ Stageは条件を満たすと1つずつアップする
 
 ## 何で1年ごとにリリースするの?
 
-ES6はリリースするまで結局6年かかった。
+ES6はリリースするまで結局6年かかったため、もっとスピードアップするため。
 
 ![ecmascript-timeline](https://monosnap.com/file/XqpEfoMeWxcLw92Jx1UOQ8EWe1e37m.png)
 
