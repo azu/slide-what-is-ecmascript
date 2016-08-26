@@ -1,0 +1,30 @@
+/* h1 size == h2 size */
+.book .book-body .page-wrapper .page-inner section.normal h1 {
+    font-size: 1.75em;
+}
+
+/* expand width of inner*/
+.page-inner {
+    max-width: 85% !important;
+}
+
+/*
+Deckset like notation
+
+![right](img.png)
+![left](img.png)
+*/
+img[alt *="right"] {
+    float: right;
+    margin-left: 1.1em;
+}
+
+img[alt *="left"] {
+    float: left;
+    margin-right: 1.1em;
+}
+
+img[alt *="center"] {
+    margin: 0 auto;
+    display: block;
+}

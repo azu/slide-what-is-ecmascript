@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "spellcheck-tech-word": true,
+    "no-mix-dearu-desumasu": false,
+    "no-start-duplicated-conjunction": {
+      "interval": 2
+    },
+    "prh": {
+      "rulePaths": [
+        "prh.yml"
+      ]
+    },
+    "preset-jtf-style": {
+      "r1.1.1.本文": false,
+      "4.3.8.一重引用符": false,
+      "2.1.2.漢字": false,
+      "4.2.2.疑問符(？)": false,
+      "4.2.7.コロン(：)": false,
+      "2.1.6.カタカナの長音": false,
+      "2.1.5.カタカナ": false,
+      "3.1.1.全角文字と半角文字の間": false,
+      "4.2.6.ハイフン(-)": false,
+      "4.3.1.丸かっこ（）": false
+    }
+  }
+}
