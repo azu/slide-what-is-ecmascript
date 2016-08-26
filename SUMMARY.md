@@ -29,7 +29,7 @@
 - [ECMAScriptの実装ってどれぐらいあるの?](slide/29.md)
 - [ECMAScriptの実装状況ってどうなの?](slide/30.md)
 - [Transpilerって何?](slide/31.md)
-	- [Tranpiler is not Learning tools](slide/32.md)
+	- [Transpiler is not Learning tools](slide/32.md)
 - [Polyfillって何?](slide/33.md)
 - [ずっとBabelを使い続けるのか?](slide/34.md)
 	- [Contributing](slide/35.md)

@@ -327,7 +327,7 @@ ES.nextの仕様に入るには2つ以上の実装が必要
 
 -------
 
-## Tranpiler is not Learning tools
+## Transpiler is not Learning tools
 
 ![slide](http://azu.github.io/slide/nodejs-es6/img/JavaScript_transformation.png)
 
